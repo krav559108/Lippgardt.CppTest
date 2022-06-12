@@ -1,0 +1,3 @@
+/Users/alexanderkravchenko/CLionProjects/CppDevTest/cmake-build-debug/CMakeFiles/CppDevTest.dir
+/Users/alexanderkravchenko/CLionProjects/CppDevTest/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/alexanderkravchenko/CLionProjects/CppDevTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
