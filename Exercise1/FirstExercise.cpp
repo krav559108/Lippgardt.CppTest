@@ -31,29 +31,29 @@ void chooseArm(double center_x1, double center_y1, double radius1, double center
     int arm2 = isPointInCircle(center_x2, center_y2, radius2, x, y);
     if (arm1 == 1)
     {
-        cout << "Arm 1 is in range \n";
+        cout << "Arm Exercise1 is in range \n";
         d1 = findDistance(center_x1, center_y1, x, y);
     }
     else
     {
-        cout << "Arm 1 is out of range \n";
+        cout << "Arm Exercise1 is out of range \n";
     }
     if (arm2 == 1)
     {
-        cout << "Arm 2 is in range \n";
+        cout << "Arm Exercise2 is in range \n";
         d2 = findDistance(center_x2, center_y2, x, y);
     }
     else
     {
-        cout << "Arm 2 is out of range \n";
+        cout << "Arm Exercise2 is out of range \n";
     }
     if (d1 >= d2)
     {
-        cout << "Arm 1 is moving\n";
+        cout << "Arm Exercise1 is moving\n";
     }
     else if  (d2 > d1)
     {
-        cout << "Arm 2 is moving\n";
+        cout << "Arm Exercise2 is moving\n";
     }
     else
     {

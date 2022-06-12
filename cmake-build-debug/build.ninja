@@ -49,11 +49,11 @@ cmake_ninja_workdir = /Users/alexanderkravchenko/CLionProjects/CppDevTest/cmake-
 
 build cmake_object_order_depends_target_CppDevTest: phony || CMakeFiles/CppDevTest.dir
 
-build CMakeFiles/CppDevTest.dir/1/main.cpp.o: CXX_COMPILER__CppDevTest_Debug /Users/alexanderkravchenko/CLionProjects/CppDevTest/1/main.cpp || cmake_object_order_depends_target_CppDevTest
-  DEP_FILE = CMakeFiles/CppDevTest.dir/1/main.cpp.o.d
+build CMakeFiles/CppDevTest.dir/Exercise1/FirstExercise.cpp.o: CXX_COMPILER__CppDevTest_Debug /Users/alexanderkravchenko/CLionProjects/CppDevTest/Exercise1/FirstExercise.cpp || cmake_object_order_depends_target_CppDevTest
+  DEP_FILE = CMakeFiles/CppDevTest.dir/Exercise1/FirstExercise.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
   OBJECT_DIR = CMakeFiles/CppDevTest.dir
-  OBJECT_FILE_DIR = CMakeFiles/CppDevTest.dir/1
+  OBJECT_FILE_DIR = CMakeFiles/CppDevTest.dir/Exercise1
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/CppDevTest.dir/1/main.cpp.o: CXX_COMPILER__CppDevTest_Debug /Us
 #############################################
 # Link the executable CppDevTest
 
-build CppDevTest: CXX_EXECUTABLE_LINKER__CppDevTest_Debug CMakeFiles/CppDevTest.dir/1/main.cpp.o
+build CppDevTest: CXX_EXECUTABLE_LINKER__CppDevTest_Debug CMakeFiles/CppDevTest.dir/Exercise1/FirstExercise.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/CppDevTest.dir
   POST_BUILD = :
