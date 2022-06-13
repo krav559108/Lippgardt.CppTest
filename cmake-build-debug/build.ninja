@@ -55,6 +55,18 @@ build CMakeFiles/CppDevTest.dir/Exercise1/FirstExercise.cpp.o: CXX_COMPILER__Cpp
   OBJECT_DIR = CMakeFiles/CppDevTest.dir
   OBJECT_FILE_DIR = CMakeFiles/CppDevTest.dir/Exercise1
 
+build CMakeFiles/CppDevTest.dir/Exercise2/SecondExercise.cpp.o: CXX_COMPILER__CppDevTest_Debug /Users/alexanderkravchenko/CLionProjects/CppDevTest/Exercise2/SecondExercise.cpp || cmake_object_order_depends_target_CppDevTest
+  DEP_FILE = CMakeFiles/CppDevTest.dir/Exercise2/SecondExercise.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/CppDevTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/CppDevTest.dir/Exercise2
+
+build CMakeFiles/CppDevTest.dir/Exercise1/ArmSelector.cpp.o: CXX_COMPILER__CppDevTest_Debug /Users/alexanderkravchenko/CLionProjects/CppDevTest/Exercise1/ArmSelector.cpp || cmake_object_order_depends_target_CppDevTest
+  DEP_FILE = CMakeFiles/CppDevTest.dir/Exercise1/ArmSelector.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/CppDevTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/CppDevTest.dir/Exercise1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CppDevTest
@@ -63,7 +75,7 @@ build CMakeFiles/CppDevTest.dir/Exercise1/FirstExercise.cpp.o: CXX_COMPILER__Cpp
 #############################################
 # Link the executable CppDevTest
 
-build CppDevTest: CXX_EXECUTABLE_LINKER__CppDevTest_Debug CMakeFiles/CppDevTest.dir/Exercise1/FirstExercise.cpp.o
+build CppDevTest: CXX_EXECUTABLE_LINKER__CppDevTest_Debug CMakeFiles/CppDevTest.dir/Exercise1/FirstExercise.cpp.o CMakeFiles/CppDevTest.dir/Exercise2/SecondExercise.cpp.o CMakeFiles/CppDevTest.dir/Exercise1/ArmSelector.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/CppDevTest.dir
   POST_BUILD = :
